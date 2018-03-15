@@ -1,0 +1,22 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "yofc cmp topo",
+    "main": "index.js",
+    "bin": {
+        "webpack": "./node_modules/webpack-cli/bin/webpack.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --config webpack.config.js"
+    },
+    "author": "yofc",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^0.28.10",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "style-loader": "^0.20.3",
+        "webpack": "^3.1.0",
+        "webpack-cli": "^2.0.12"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "yofc cmp topo",
+    "main": "index.js",
+    "bin": {
+        "cross-env": "./node_modules/cross-env/bin/cross-env.js",
+        "webpack": "./node_modules/webpack/bin/webpack.js",
+        "webpack-dev-server": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    },
+    "scripts": {
+        "start": "npm run dev",
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --bail"
+    },
+    "author": "yofc",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^0.28.10",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "style-loader": "^0.20.3",
+        "webpack": "^3.1.0",
+        "webpack-cli": "^2.0.12",
+        "webpack-dev-server": "^2.10.0",
+        "cross-env": "^3.0.0"
+    }
+}
